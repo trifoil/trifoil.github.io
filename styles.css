@@ -16,6 +16,7 @@ header, section, footer {
     padding: 20px;
     border: 0px solid #00e1ff;
     background-color: rgb(0, 0, 0);
+    color: #ffffff;
 }
 
 nav {
