@@ -14,7 +14,7 @@ body {
 
 header {
     margin: 20px;
-    padding: 20px;
+    padding: 10px 25px 10px;
     border: 1px solid #00e1ff;
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
@@ -24,7 +24,7 @@ header {
 
 section {
     margin: 0px 20px 20px;
-    padding: 20px;
+    padding: 10px 25px 10px ;
     border: 1px solid #00e1ff;
     border-radius: 5px;
     background-color: rgb(0, 0, 0);
