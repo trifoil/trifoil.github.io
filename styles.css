@@ -13,6 +13,7 @@ body {
 }
 
 header {
+    flex: 1;
     margin: 20px;
     padding: 10px 25px 10px;
     border: 1px solid #ebc55d;
@@ -141,8 +142,10 @@ a:hover {
     width: 200px;
     float: left;
     background-color: black;
-    height: 100vh;
+    height:100vh;
     position: fixed;
+    margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .sidebar ul {
@@ -165,6 +168,7 @@ a:hover {
     color: #000000;
 }
 
-header, section, footer {
-    margin-left: 220px; /* Adjusted to accommodate sidebar width */
+/* header, section {
+    margin-left: 220px;
 }
+ */
