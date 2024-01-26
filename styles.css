@@ -137,7 +137,7 @@ a:hover {
     display: block;
 }
 
-.sidebar {
+/* .sidebar {
     width: 200px;
     float: left;
     background-color: black;
@@ -165,9 +165,45 @@ a:hover {
 .sidebar a:hover {
     background-color: #ffffff;
     color: #000000;
-}
+} */
 
 /* header, section {
     margin-left: 220px;
 }
  */
+
+ .grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+}
+
+.grid-item {
+    position: relative;
+}
+
+.grid-item img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.grid-item:hover .caption {
+    visibility: visible;
+    opacity: 1;
+}
