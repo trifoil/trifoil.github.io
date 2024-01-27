@@ -176,10 +176,16 @@ a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     gap: 10px;
+    margin: 0px 20px 20px;
 }
 
 .grid-item {
     position: relative;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #ffffff;
+    text-align: center;
 }
 
 .grid-item img {
