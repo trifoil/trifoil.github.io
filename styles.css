@@ -7,8 +7,13 @@ body{
     font-family: 'Bitstream';
     background-color: black;
     color: blueviolet;
+
 }
 
 h1{
     color: blueviolet;
+}
+
+img{
+    border-radius: 5px;
 }
