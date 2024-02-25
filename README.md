@@ -8,10 +8,13 @@ Menu :
         * Home
         * Projects
         * Contact
+            * Map
+            * Mail
     * On the side : Quick jump to categories
     * Categories with anchors
         * Quick presentation
         * Clickable pictures in grid
+            * About
             * Newest pictures
             * Full Projects
             * IT Projects
