@@ -1,0 +1,80 @@
+@font-face {
+  font-family: 'Bitstream';
+  src: url('Bitstream Vera Sans Mono Nerd Font Complete Mono.ttf');
+}
+
+body {
+  font-family: 'Bitstream';
+  background-color: rgb(0, 0, 0);
+  color: blueviolet;
+  margin: 0;
+}
+
+footer {
+  background-color: #000000;
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  border: 0px;
+  border-top: 2px solid blueviolet;
+  text-align: center;
+
+}
+
+.footercontent {
+  text-align: center;
+  margin: 2px;
+}
+
+.navbar {
+  background-color: #000000;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border: 0px;
+  border-bottom: 2px solid blueviolet;
+  margin: 0px;
+  height: 50px;
+
+}
+
+.navbarcontent {
+  text-align: center;
+  line-height: 50px;
+  font-weight: bold;
+  font-size: large;
+}
+
+.navbarbutton:hover {
+  border-radius: 5px;
+  background-color: blueviolet;
+  color: #000000;
+}
+
+a:link {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+a:visited {
+  text-decoration: none;
+  color: blueviolet;
+
+}
+
+a:hover {
+  text-decoration: none;
+  color: blueviolet;
+
+}
+
+a:active {
+  text-decoration: none;
+  color: blueviolet;
+
+}
+
+
+main {
+  text-align: center;
+}
