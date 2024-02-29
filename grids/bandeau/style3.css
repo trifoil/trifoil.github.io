@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Bitstream';
+  src: url('Bitstream Vera Sans Mono Nerd Font Complete Mono.ttf');
+}
+
+body {
+  font-family: 'Bitstream';
+  background-color: rgb(0, 0, 0);
+  color: blueviolet;
+  margin: 0;
+}
+
