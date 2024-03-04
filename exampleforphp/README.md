@@ -1,3 +1,23 @@
+to update system, install and start docker, run 
+
+```
+sudo dnf update
+sudo dnf install docker
+sudo systemctl start docker
+```
+
+make docker start auto at boot
+
+```
+sudo systemctl enable docker
+```
+
+to display docker version
+
+```
+docker --version
+```
+
 to make the docker image, run
 
 ```
