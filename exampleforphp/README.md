@@ -1,3 +1,23 @@
+## Cockpit setup
+
+install and enable cockpit
+
+```
+sudo dnf install cockpit
+sudo systemctl enable --now cockpit.socket
+```
+
+open firewall for cockpit
+
+```
+sudo firewall-cmd --permanent --zone=public --add-service=cockpit
+sudo firewall-cmd --reload
+```
+
+default port is 9090 on localhost (and local IP)
+
+## Docker usage
+
 to update system, install and start docker, run 
 
 ```
