@@ -1,102 +1,107 @@
 @font-face {
-    font-family: Title;
-    src: url("RedditSans-VariableFont_wght.ttf");
-  }
-
-body{
-    background-color: rgb(255, 255, 255);
+  font-family: Title;
+  src: url("RedditSans-VariableFont_wght.ttf");
 }
 
-a{
-    text-align: center;
-    text-decoration: none;
-    color: black;
+body {
+  background-color: rgb(255, 255, 255);
 }
 
-h1, h2, h3, h4, p{
-    color:rgb(0, 0, 0);
-    font-family: Title;
+a {
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
 
-h1, h2 {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
+h1,
+h2,
+h3,
+h4,
+p {
+  color: rgb(0, 0, 0);
+  font-family: Title;
 }
 
-h1{
-    text-align: center;
-    font-size: 4.8rem;
-    padding: 0;
-    margin-bottom: 0;
+h1,
+h2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
-h2{
-    text-align: center;
-    font-size: 2rem;
-    font-weight: bold;
-    padding: 0;
+h1 {
+  text-align: center;
+  font-size: 4.8rem;
+  padding: 0;
+  margin-bottom: 0;
 }
 
-h3{
-    font-size: 2rem;
-    padding: 0;
-}
-h4{
-    text-align: center;
-    font-size: 2rem;
-    padding: 0;
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0;
 }
 
-p{
-    color: rgb(0, 0, 0);
+h3 {
+  font-size: 2rem;
+  padding: 0;
 }
 
-.images_div{
-    max-width: 60rem;
-    display: flex;
-    margin: auto;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content:center;
+h4 {
+  text-align: center;
+  font-size: 2rem;
+  padding: 0;
 }
 
-.images_galerie{    
-    max-width: 18rem;
-    border: 0.1rem solid rgb(0, 0, 0);
-    border-radius: .25rem;
+p {
+  color: rgb(0, 0, 0);
 }
 
-footer{
-    text-align: center;
-    color: rgb(0, 0, 0);
-    margin-top: 2rem;
-    margin-bottom: 1rem;
-    font-family: Title;
-    font-size: 1.5rem;
+.images_div {
+  max-width: 60rem;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.images_galerie {
+  max-width: 18rem;
+  border: 0.1rem solid rgb(0, 0, 0);
+  border-radius: .25rem;
+}
+
+footer {
+  text-align: center;
+  color: rgb(0, 0, 0);
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+  font-family: Title;
+  font-size: 1.5rem;
 }
 
 
 /*RESPONSIVE*/
 
 nav {
-    background-color: rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    display: flex;
-    justify-content: center;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
 
-  }
+}
 
-  nav ul {
-    /* Make the markers disappear */
-    list-style-type:none;
-    padding: 0 1rem;
-  }
+nav ul {
+  list-style-type: none;
+  padding: 0 1rem;
+}
 
-  nav ul li {
-    /* Puts the elements in a single line */
-    display: inline-flex;
-    margin: 0 1rem;
-  }
+nav ul li {
+  /* Puts the elements in a single line */
+  display: inline-flex;
+  margin: 0 1rem;
+}
 
 nav input[type="checkbox"],
 nav label {
@@ -104,71 +109,69 @@ nav label {
 }
 
 @media (max-width: 576px) {
-    input[type="checkbox"]:not(:checked) + ul {
-        display: none;
-    }
+  input[type="checkbox"]:not(:checked)+ul {
+    display: none;
+  }
 
-    nav {
-        flex-direction: row;
-        justify-content: center;
-        flex-wrap: wrap;
-        margin-left: 0;
-        margin-right: 0;
-      }
-      nav label {
-        text-align: center;
-        display: block;
-        padding: 0.5em;
-        line-height: 1.6em;
-        align-self: center;
-        font-size: 3rem;
-    }
-  
-      /* Because we are in mobile mode, we want to display it as a vertical list */
-      nav ul {
-        display: block;
-        padding-left: 0;
-        justify-content: center;
-      }
-  
-      /* We have two lists: the first one are the always visibile items in the 
-        menu bar. The second one is the one that will be hidden */
-      nav ul:last-child {
-        width: 100%;
-        flex-basis: 100%;
-        padding-left: 0;
-        justify-content: center;
-      }
+  nav {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-left: 0;
+    margin-right: 0;
+  }
 
-      nav ul li {
-        margin: 0;
-        margin-bottom: 0;
-        width: 100%;
-        text-align: center;
-        padding-left: 0;
-        justify-content: center;
-      }
+  nav label {
+    text-align: center;
+    display: block;
+    padding: 0.5em;
+    line-height: 1.6em;
+    align-self: center;
+    font-size: 3rem;
+  }
 
-    nav h2 {
-        border-top: solid black 1px;
-        border-bottom: solid black 1px;
-        padding-left: 0;
-        font-size: 3rem;
-    }
+  nav ul {
+    display: block;
+    padding-left: 0;
+    justify-content: center;
+  }
 
-    nav h3{
-        font-size: 3rem;
-    }
-    
+  nav ul:last-child {
+    width: 100%;
+    flex-basis: 100%;
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  nav ul li {
+    margin: 0;
+    margin-bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    justify-content: center;
+  }
+
+  nav h2 {
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    padding-left: 0;
+    font-size: 3rem;
+  }
+
+  nav h3 {
+    font-size: 3rem;
+  }
+
 
 }
 
 /*CONTACT*/
 
-.contact {  
-justify-content: center;
-text-align: center;
-text-decoration: underline rgb(0, 30, 197);
+.contact {
+  justify-content: center;
+  text-align: center;
+  text-decoration: underline rgb(0, 30, 197);
 }
 
 .mailto {
@@ -177,14 +180,14 @@ text-decoration: underline rgb(0, 30, 197);
 }
 
 .map {
-  max-width:100%;
-  overflow:hidden;
-  color:red;
-  width:500px;
-  height:500px;
+  max-width: 100%;
+  overflow: hidden;
+  color: red;
+  width: 500px;
+  height: 500px;
 }
 
-.contenu_contact{
+.contenu_contact {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -193,11 +196,9 @@ text-decoration: underline rgb(0, 30, 197);
   margin: auto;
 }
 
-
-
 /*ACCUEIL*/
 
-#emphase{
+#emphase {
   font-family: Title;
   font-style: italic;
   font-size: 1.2rem;
@@ -205,7 +206,7 @@ text-decoration: underline rgb(0, 30, 197);
   padding: 3rem 0;
 }
 
-.contenu_accueil{
+.contenu_accueil {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -214,25 +215,27 @@ text-decoration: underline rgb(0, 30, 197);
   margin: auto;
 }
 
-#lion_accueil{
+#lion_accueil {
   max-width: 60rem;
   width: 100%;
 }
 
-#expo_accueil{
+#expo_accueil {
   max-width: 60rem;
   width: 100%;
 }
 
-#fardeau_accueil{
+#fardeau_accueil {
   max-width: 40rem;
   width: 100%;
 
 }
 
-p{text-align: justify;}
+p {
+  text-align: justify;
+}
 
-.legende{
+.legende {
   text-align: center;
   font-family: Title;
   font-style: italic;
