@@ -1,0 +1,280 @@
+@font-face {
+    font-family: 'Bitstream';
+    src: url('Bitstream Vera Sans Mono Nerd Font Complete Mono.ttf');
+} 
+
+#colortest{
+  color: blueviolet;
+  background-color: #000000;
+}
+#colortest:hover{
+  color: black;
+  border-radius: 5px;
+  border-color: #000000;
+  background-color: blueviolet;
+}
+
+body {
+<<<<<<< HEAD:old2/styles.css
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('bg2.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin: 20px;
+    padding: 10px 25px 10px;
+    border: 1px solid #ebc55d;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+
+section {
+    margin: 0px 20px 20px;
+    padding: 10px 25px 10px ;
+    border: 1px solid #00e1ff;
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+}
+
+footer {
+    background-color: rgb(0, 0, 0);
+    color: #ffffff;
+    margin-top: auto;
+    text-align: center;
+    line-height: 12px;
+}
+
+nav {
+    margin: 0px;
+    padding: 0px;
+    border: 0px solid #5f5f5f;
+    background-color: rgb(51, 51, 51);
+    height: 50px !important;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+}
+
+nav li {
+    display: inline;
+    margin-right: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffd768;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.top-navigation {
+    background-color: #000000;
+    overflow: visible;
+    text-align: center;
+}
+
+.top-navigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.top-navigation li {
+    /*float: left;*/
+    display: inline-block;
+}
+
+.top-navigation a {
+    box-sizing: border-box;
+    width: 100%;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.top-navigation a:hover {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+
+/* Style the dropdown button */
+.dropbtn {
+    padding: 14px 16px;
+    /*background-color: #000000;*/
+    color: white;
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    min-width: 140px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+/* Style the dropdown links */
+.dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 12px 16px;
+    display: block;
+    text-align: left;
+}
+
+/* Change color on hover */
+.dropdown-content a:hover {
+    background-color: #ffffff;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* .sidebar {
+    width: 200px;
+    float: left;
+=======
+    font-family: 'Bitstream';
+>>>>>>> 4d38a70c4424ed215182fecbdbb282b463c739e4:styles.css
+    background-color: black;
+    color: blueviolet;
+}
+
+h1 {
+    color: blueviolet;
+}
+
+img {
+    border-radius: 5px;
+}
+video{
+    border-radius: 5px;
+}
+
+
+header{
+  text-align: center;
+}
+main{
+  text-align: center;
+}
+footer{
+  text-align: center;
+}
+.main_title{
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+ /* Style the Image Used to Trigger the Modal */
+ #myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  #myImg:hover {opacity: 0.7;}
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+  }
+  
+  /* Modal Content (Image) */
+  .modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+  }
+  
+  /* Caption of Modal Image (Image Text) - Same Width as the Image */
+  #caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+  }
+  
+  /* Add Animation - Zoom in the Modal */
+  .modal-content, #caption {
+    animation-name: zoom;
+    animation-duration: 0.6s;
+  }
+  
+  @keyframes zoom {
+    from {transform:scale(0)}
+    to {transform:scale(1)}
+  }
+  
+  /* The Close Button */
+  .close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  /* 100% Image Width on Smaller Screens */
+  @media only screen and (max-width: 700px){
+    .modal-content {
+      width: 100%;
+    }
+  } 

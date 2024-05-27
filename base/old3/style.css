@@ -1,0 +1,59 @@
+@font-face {
+    font-family: 'Bitstream';
+    src: url('Bitstream Vera Sans Mono Nerd Font Complete Mono.ttf');
+}
+
+html,body{
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-family: 'Bitstream';
+    background: linear-gradient(rgb(7, 7, 7), rgb(19, 19, 19), rgb(7, 7, 7));
+    color: blueviolet;    
+}
+
+/*---------------------------------------------------------*/
+/*INDEX-NEWS*/
+
+
+
+/*---------------------------------------------------------*/
+/*INDEX-ABOUT*/
+
+#about {
+    max-width: 1000px;
+    margin: auto;
+    padding: 60px;
+}
+
+#about_container {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    padding: 40px;
+    border-radius: 8px;
+    border: solid 2px;
+    border-color: blueviolet;
+}
+
+
+/*---------------------------------------------------------*/
+/*INDEX-FULLPROJECTS*/
+
+
+/*---------------------------------------------------------*/
+/*INDEX-ITPROJECTS*/
+
+
+/*---------------------------------------------------------*/
+/*INDEX-MECHPROJECTS*/
+
+/*---------------------------------------------------------*/
+/*INDEX-FOOTER*/
+
+footer {
+    text-align: center;
+}
