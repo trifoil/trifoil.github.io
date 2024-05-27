@@ -7,19 +7,6 @@ body{
     background-color: rgb(255, 255, 255);
 }
 
-/* nav{
-    font-family: Title;
-    font-size: 2rem;
-    color: rgb(0, 0, 0);
-    text-decoration: none;
-}
-ul{
-    color: rgb(0, 0, 0);
-    list-style-type: none;
-    text-decoration: none;
-    text-align: center;
-} */
-
 a{
     text-align: center;
     text-decoration: none;
@@ -176,13 +163,9 @@ nav label {
 
 }
 
-
-
-
 /*CONTACT*/
 
 .contact {  
-/* display: flexbox; */
 justify-content: center;
 text-align: center;
 }
@@ -197,6 +180,14 @@ text-align: center;
   justify-content: center;
 }
 
+.contenu_contact{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 60rem;
+  padding: 0 1rem;
+  margin: auto;
+}
 
 
 /*ACCUEIL*/
