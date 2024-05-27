@@ -206,6 +206,7 @@ text-align: center;
   font-style: italic;
   font-size: 1.2rem;
   text-align: center;
+  padding: 3rem 0;
 }
 
 .contenu_accueil{
@@ -215,7 +216,6 @@ text-align: center;
   max-width: 60rem;
   padding: 0 1rem;
   margin: auto;
-  
 }
 
 #lion_accueil{
