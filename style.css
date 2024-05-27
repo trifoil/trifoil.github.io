@@ -168,11 +168,12 @@ nav label {
 .contact {  
 justify-content: center;
 text-align: center;
+text-decoration: underline rgb(0, 30, 197);
 }
 
 .mailto {
   color: rgb(0, 30, 197);
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 .map {
