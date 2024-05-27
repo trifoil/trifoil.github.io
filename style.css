@@ -177,8 +177,11 @@ text-decoration: underline rgb(0, 30, 197);
 }
 
 .map {
-  text-align: center;
-  justify-content: center;
+  max-width:100%;
+  overflow:hidden;
+  color:red;
+  width:500px;
+  height:500px;
 }
 
 .contenu_contact{
@@ -189,6 +192,7 @@ text-decoration: underline rgb(0, 30, 197);
   padding: 0 1rem;
   margin: auto;
 }
+
 
 
 /*ACCUEIL*/
